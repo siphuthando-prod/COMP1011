@@ -8,15 +8,13 @@ public class Player {
 		
 		int strength = 10;
 			
-		JOptionPane.showMessageDialog(null, "Hello world! " + strength);
+		JOptionPane.showMessageDialog(null, "Hello world! It's 2026 " + strength);
 
-		Person land = new Person();
+		Person land = new Person("sizwe", 85.6f);
 		land.walks();
 		
-		land.walks();
-		
-		land.walks();
-		land.setHeight(70);
+		Person him = new Person("HIM", 89.9f);
+		him.walks();
 		
 	}
 
