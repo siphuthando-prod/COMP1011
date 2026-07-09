@@ -18,9 +18,9 @@ public class Person {
 	}
 
 	//Constructor
-	public Person(String name, float weight) {
+	public Person(String name, float weight, float height) {
 		this.name = name;
-		this.setHeight(200);
+		this.height = height;
 		this.weight = weight;
 	}
 	
