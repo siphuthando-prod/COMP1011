@@ -4,11 +4,21 @@ import javax.swing.JOptionPane;
 
 public class Person {
 
-	float height;
-	float weight;
+	private float height;
+	private float weight;
+	
+	//Getters and Setters
+	public float getHeight() {
+		return height;
+	}
+
+	public void setHeight(float height) {
+		this.height = height;
+	}
+
 	//Constructor
 	public Person() {
-		this.height = 200;
+		this.setHeight(200);
 		this.weight = 70;
 	}
 	

@@ -16,6 +16,7 @@ public class Player {
 		land.walks();
 		
 		land.walks();
+		land.setHeight(70);
 		
 	}
 
