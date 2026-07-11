@@ -47,6 +47,14 @@ public class Hero {
 		System.out.println("Health: " + this.health);
 		System.out.println("+++++++++++++++++++++++++++++++++++");
 	}
+
+	public void fight() {
+		System.out.println(this.name + " is Fighting");
+	}
+	
+	public void run() {
+		System.out.println(this.name + " is Running");
+	}
 	
 	//PRIVATE METHODS
 	private void generateAbilities() {
@@ -55,13 +63,6 @@ public class Hero {
 		this.health = (int)(Math.random() * 100 + 1);
 	}
 	
-	public void fight() {
-		System.out.println(this.name + " is fighting");
-	}
-	
-	public void run() {
-		System.out.println(this.name + " is Running");
-	}
 
 }	
 	
