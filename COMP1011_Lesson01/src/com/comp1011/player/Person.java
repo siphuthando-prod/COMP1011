@@ -34,6 +34,6 @@ public class Person {
 	public void eats() {
 		this.weight *= 1.2;
 		JOptionPane.showMessageDialog(null,this.name + " weighs: " + this.weight + "kg",
-				"You gained weight!", JOptionPane.ERROR_MESSAGE);
+				this.name + "You gained weight!", JOptionPane.ERROR_MESSAGE);
 	}
 }

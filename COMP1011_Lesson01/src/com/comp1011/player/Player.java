@@ -16,6 +16,8 @@ public class Player {
 		Person him = new Person("HIM", 89.9f, 96.9f);
 		him.walks();
 		
+		Person matt = new Person("Matt", 70.7f, 100.5f);
+		matt.eats();
 	}
 
 }
