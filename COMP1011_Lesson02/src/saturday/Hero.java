@@ -5,7 +5,7 @@ public class Hero {
 	private int strength;
 	private int speed;
 	private int health;
-	public String name;
+	private String name;
 	
 	//Getters
 	public int getStrength() {
