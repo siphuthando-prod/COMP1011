@@ -37,6 +37,7 @@ public class Hero {
 	//CONSTRUCTOR
 	public Hero(String name) {
 		this.name = name;
+		generateAbilities();
 	}
 
 	//PUBLIC METHODS++++++++++++++++++++++++++++++++++++++++
