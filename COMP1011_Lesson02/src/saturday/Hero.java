@@ -2,12 +2,15 @@ package saturday;
 
 public class Hero {
 	
-	private int strength;
-	private int speed;
+	//PRIVATE PROPERIES+++++++++++++++++++
+	protected int strength;
+	protected int speed;
 	private int health;
-	protected String name;
 	
-	//Getters
+	//PUBLIC PROPERTIES+++++++++++++
+	public String name;
+	
+	//Getters+++++++++++++++
 	public int getStrength() {
 		return this.strength;
 	}
@@ -20,7 +23,7 @@ public class Hero {
 		return health;
 	}
 	
-	//Setters
+	//Setters+++++++++++++++++++++++++++++++
 	public void setStrength(int strength) {
 		this.strength = strength;
 	}
@@ -34,7 +37,7 @@ public class Hero {
 		this.health = health;
 	}
 
-	//CONSTRUCTOR
+	//CONSTRUCTOR+++++++++++++++++++++++++++++++++++++++++++++++++++
 	public Hero(String name) {
 		this.name = name;
 		generateAbilities();
