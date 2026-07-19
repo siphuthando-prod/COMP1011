@@ -48,7 +48,6 @@ public class Hero {
 	}
 	
 	public void show() {
-		System.out.println("+++++++++++++++++++++++++++++++++++++");
 		System.out.println("Showing " + this.name + "'s Abilities");
 		System.out.println("+++++++++++++++++++++++++++++++++++++");
 		System.out.println("Strength: " + this.strength);
