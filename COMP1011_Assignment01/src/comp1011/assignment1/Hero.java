@@ -46,6 +46,14 @@ public class Hero {
 					JOptionPane.INFORMATION_MESSAGE);
 		}
 	}
-
 	
+	public void show() {
+		System.out.println("+++++++++++++++++++++++++++++++++++++");
+		System.out.println("Showing " + this.name + "'s Abilities");
+		System.out.println("+++++++++++++++++++++++++++++++++++++");
+		System.out.println("Strength: " + this.strength);
+		System.out.println("Speed: " + this.speed);
+		System.out.println("Health: " + this.health);
+		System.out.println("+++++++++++++++++++++++++++++++++++++");
+	}
 }
