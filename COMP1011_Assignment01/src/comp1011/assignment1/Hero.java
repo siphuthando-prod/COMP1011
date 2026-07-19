@@ -1,7 +1,5 @@
 package comp1011.assignment1;
 
-import javax.swing.JOptionPane;
-
 public class Hero {
 	//PRIVATE MEMBERS+++++++++++++++++++++++++++++++
 	private int strength;
@@ -41,9 +39,9 @@ public class Hero {
 	//PUBLIC METHODS++++++++++++++++++++++++++++++++++
 	public void fight() {
 		if(hitAttempt()) {
-			JOptionPane.showMessageDialog(null, this.name + 
-					" has a hit damage of: " + hitDamage(), "Damage results",
-					JOptionPane.INFORMATION_MESSAGE);
+			System.out.println("+++++++++++++++++++++++++++++++++++++");
+			System.out.println(this.name + " has a hit damage of: " + hitDamage());
+			System.out.println("+++++++++++++++++++++++++++++++++++++");
 		}
 	}
 	
