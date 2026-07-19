@@ -1,6 +1,6 @@
 package saturday;
 
-public class Hero {
+public class Hero extends Entity{
 	
 	//PRIVATE PROPERIES+++++++++++++++++++
 	protected int strength;
